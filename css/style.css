@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
+	font-family: 'Montserrat', sans-serif;
+}
+canvas {
+	border-top: 1px solid #000;
+	position: absolute;
+	margin: 2.5px 5px;
+	box-shadow: 0 16px 80px rgba(17,0,102,.16);
+}
+#controls{
+	background-color: #fff;
+    width: 28%;
+    text-align: center;
+    box-shadow: 0 16px 80px rgba(17,0,102,.16);
+	border-radius: 15px;
+	margin: 10px 0;
+	padding-top: 22.5px;
+	padding-bottom: 22.5px;
+	margin-left: 1%;
+}
+#dice{
+	height: 75px;
+	margin: 0 10px;
+	filter: drop-shadow(0 16px 80px rgba(17,0,102,.16));}
+#diceName {
+	font-size: 30px;
+}
+
+#diceControl {
+	cursor: pointer;
+}
+button{
+	background-color: #0d004d;
+    color: #fff;
+	box-shadow: 0 2px 4px rgba(13,0,77,.08), 0 8px 16px rgba(13,0,77,.08), 0 32px 80px rgba(13,0,77,.08);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 17px 32px;
+	cursor: pointer;
+	font-size: 18px;
+	margin: 2.5px 2.5px;
+	font-family: 'Montserrat', sans-serif;
+}
+input{
+	background: #fff;
+	padding: 14px 40px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 5px;
+	border: 1px solid #0d004d;
+	margin: 5px 5px;
+	box-shadow: 0 2px 4px rgba(13,0,77,.1), 0 8px 16px rgba(13,0,77,.1), 0 32px 80px rgba(13,0,77,.1);
+}
+input:focus{
+	outline: none;
+}
+@media(max-width:600px){
+	#controls{
+		background-color: #fff;
+		width: 97.5%;
+		text-align: center;
+		box-shadow: 0 16px 80px rgba(17,0,102,.16);
+		border-radius: 15px;
+		margin: 10px 0;
+		padding-top: 22.5px;
+		padding-bottom: 22.5px;
+		margin-left: 1%;
+	}
+}

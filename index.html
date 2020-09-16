@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Play Snake and Ladder Game Online | Developed By Savio Martin</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div id="controls">
+		<table id="diceControl">
+			<tr>
+				<!--Dice Image-->
+				<td class="dice-cont"><img src="images/dice4.png" id="dice"></td>
+				<!--Person Name Image-->
+				<td><p id="diceName"></p></td>
+			</tr>
+		</table>
+		<div class="playerprops">
+			<input type="text" placeholder="Enter player's name" id="playerName"><br>
+			<button id="addPlayer">Add Player</button>
+			<button id="resetGame" onClick="refreshPage()">Reset Game</button>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/refresh.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/logic.js"></script>
+	<script type="text/javascript" src="js/gamePlay.js"></script>
+	<script type="text/javascript" src="js/trigger.js"></script>
+</body>
+</html>
